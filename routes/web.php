@@ -11,8 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pack.welcome');
-});
-
+Route::get('/','vistazo@index');
 Route::get('/perro','vistazo@index');
